@@ -1,6 +1,6 @@
 {
   "name": "@hyq/front_cli",
-  "version": "1.1.0",
+  "version": "1.2.1",
   "description": "front_cli",
   "main": "./bin/index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "front_cli": "bin/index.js"
   },
   "author": "hyq",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "chalk": "^4.1.0",
     "commander": "^6.2.0",
@@ -28,5 +28,13 @@
   "dependencies": {},
   "keywords": [
     "front_cli"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BobTalk/front_cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BobTalk/front_cli/issues"
+  },
+  "homepage": "https://github.com/BobTalk/front_cli#readme"
 }
