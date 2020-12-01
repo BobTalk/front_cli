@@ -1,0 +1,32 @@
+{
+  "name": "@hyq/front_cli",
+  "version": "1.1.0",
+  "description": "front_cli",
+  "main": "./bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "front_cli": "bin/index.js"
+  },
+  "author": "hyq",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.2.0",
+    "download": "^8.0.0",
+    "fs-extra": "^9.0.1",
+    "handlebars": "^4.7.6",
+    "inquirer": "^7.3.3",
+    "log-symbols": "^4.0.0",
+    "ora": "^5.1.0",
+    "update-notifier": "^5.0.1"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {},
+  "keywords": [
+    "front_cli"
+  ]
+}
